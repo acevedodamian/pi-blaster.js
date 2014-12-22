@@ -1,5 +1,5 @@
-pi-blaster.js
-=============
+pi-servo-blaster.js
+===================
 
 NodeJS library for the [pi-blaster daemon][pi-blaster], and the [servo blaster daemon][servo-blaster].
 
