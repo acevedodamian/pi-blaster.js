@@ -1,16 +1,16 @@
 {
-	"author": "Thomas Sarlandie <thomas@sarlandie.net>",
-	"name": "pi-blaster.js",
-	"description": "A node.js library for the pi-blaster daemon - Allows PWM control of the raspberry Pi pins",
+	"author": "Damian Acevedo <acevedodamian@gmail.com> forked from Thomas Sarlandie <thomas@sarlandie.net>",
+	"name": "pi-servo-blaster.js",
+	"description": "A node.js library for the pi-blaster daemon, and the ServoBlaster daemon - Allows PWM control of the raspberry Pi pins",
 	"version": "0.0.2",
-	"main": "pi-blaster.js",
+	"main": "pi-servo-blaster.js",
 	"repository": {
 		"type": "git", 
-		"url": "git@github.com:sarfata/pi-blaster.js.git"
+		"url": "git@github.com:acevedodamian/pi-blaster.js"
 	},
-	"homepage": "https://github.com/sarfata/pi-blaster.js",
+	"homepage": "https://github.com/acevedodamian/pi-blaster.js",
 	"bugs": {
-		"url": "https://github.com/sarfata/pi-blaster.js/issues"
+		"url": "https://github.com/acevedodamian/pi-blaster.js/issues"
 	},
-	"tags": ["raspberry", "pi", "pwm"]
+	"tags": ["raspberry", "pi", "pwm","pi-blaster","ServoBlaster"]
 }

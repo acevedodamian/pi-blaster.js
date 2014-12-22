@@ -1,26 +1,34 @@
 pi-blaster.js
 =============
 
-NodeJS library for the [pi-blaster daemon][pi-blaster].
+NodeJS library for the [pi-blaster daemon][pi-blaster], and the [servo blaster daemon][servo-blaster].
 
 ## Installation
     
 Make sure you have `node` and `npm` installed on your Raspberry Pi.
 
 Install the pi-blaster daemon ([instructions][pi-blaster]).
+And install the ServoBlaster daemon ([instructions][servo-blaster]).
 
-Finally install `pi-blaster.js`:
+Finally install `pi-servo-blaster.js`:
 
-    npm install pi-blaster.js
+    npm install pi-servo-blaster.js
     
 ## Usage
 
-    var piblaster = require('pi-blaster.js');
+    var piServoblaster = require('pi-servo-blaster.js');
     
-    piblaster
+    // Set first pin at 40% using pi blaster
+    piblaster.setPwm(0, 0.4);
     
 ## License
 
-Copyright 2013 - Thomas Sarlandie. Published under the MIT open source license (see full license in LICENSE.txt file).
+Copyright 2014 - Damian Acevedo. Published under the Apache open source license (see full license in LICENSE.txt file).
+
+## Credits
+
+Original version forked from code written by Thomas Sarlandie.
+    https://github.com/sarfata/pi-blaster.js/
 
 [pi-blaster]: https://github.com/sarfata/pi-blaster
+[servo-blaster]: https://github.com/richardghirst/PiBits/tree/master/ServoBlaster
