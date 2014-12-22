@@ -1,6 +1,10 @@
 pi-servo-blaster.js
 ===================
 
+[![license](http://img.shields.io/badge/license-Apache-blue.svg?style=flat)](https://raw.githubusercontent.com/acevedodamian/pi-blaster/master/LICENSE)
+[![npm](http://img.shields.io/npm/v/pi-servo-blaster.js.svg?style=flat)](https://www.npmjs.com/package/pi-servo-blaster.js)
+
+
 NodeJS library for the [pi-blaster daemon][pi-blaster], and the [servo blaster daemon][servo-blaster].
 
 ## Installation
