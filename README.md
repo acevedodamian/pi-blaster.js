@@ -11,6 +11,7 @@ Install the pi-blaster daemon ([instructions][pi-blaster]).
 And install the ServoBlaster daemon ([instructions][servo-blaster]).
 
 Finally install `pi-servo-blaster.js`:
+    https://www.npmjs.com/package/pi-servo-blaster.js
 
     npm install pi-servo-blaster.js
     
